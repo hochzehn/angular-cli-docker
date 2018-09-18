@@ -16,7 +16,7 @@ RUN apt-get update \
  && apt-get autoremove -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
- && stat /usr/bin/chromium
+ && /usr/bin/chromium --version
 ENV CHROME_BIN=/usr/bin/chromium
 
 # Run configuration
