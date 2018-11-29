@@ -1,4 +1,4 @@
-FROM node:8.12-stretch
+FROM node:8.14-slim
 
 ENV ANGULAR_CLI_VERSION=6.2.2
 
