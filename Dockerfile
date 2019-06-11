@@ -1,6 +1,6 @@
-FROM node:8.14-slim
+FROM node:10.16-stretch
 
-ENV ANGULAR_CLI_VERSION=6.2.2
+ENV ANGULAR_CLI_VERSION=7.3.9
 
 # Install angular-cli
 RUN chown -R node:node /usr/local/lib/node_modules \
